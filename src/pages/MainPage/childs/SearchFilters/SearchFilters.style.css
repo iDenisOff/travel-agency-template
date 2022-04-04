@@ -1,0 +1,5 @@
+.container {
+    background-color: red;
+    display: grid;
+    grid-template-rows: 1fr 3.5fr;
+}

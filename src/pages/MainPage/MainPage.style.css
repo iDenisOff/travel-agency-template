@@ -1,7 +1,9 @@
 .container {
-    display: grid;
+    /*display: grid;*/
     min-width: 1050px;
     min-height: 200px;
     width: 100vw;
     height: 100vh;
+
+    padding: 0 14%;
 }

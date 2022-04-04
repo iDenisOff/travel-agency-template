@@ -1,6 +1,16 @@
 import React from "react";
 import styles from "./MainPage.style.css";
+import { Header } from "./childs/Header";
+import bg from "./images/background.png";
+import { Summary } from "./childs/Summary";
+import { SearchFilters } from "./childs/SearchFilters";
 
 export const MainPage: React.FC = () => {
-    return <div className={styles.container}>{"Test"}</div>;
+    return (
+        <div className={styles.container} style={{ background: `url(${bg}) no-repeat fixed` }}>
+            <Header />
+            <Summary />
+            <SearchFilters />
+        </div>
+    );
 };

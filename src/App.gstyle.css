@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
 html,
 body,
 div,
@@ -88,6 +90,10 @@ video {
 
 html {
   height: 100%;
+
+  --color-grey-light: #e5e5e5;
+  --color-yellow: #ffc814;
+  --color-yellow-dark: rgba(255, 200, 20, 0.64);
 
   user-select: none;
 }
