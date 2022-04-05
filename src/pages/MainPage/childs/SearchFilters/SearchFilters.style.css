@@ -1,5 +1,4 @@
 .container {
-    background-color: red;
     display: grid;
-    grid-template-rows: 1fr 3.5fr;
+    grid-template-rows: 0.7fr 3fr;
 }

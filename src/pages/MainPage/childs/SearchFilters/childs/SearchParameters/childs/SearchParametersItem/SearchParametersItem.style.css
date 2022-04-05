@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+
+    padding: 0 34px 0 20px;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #1f3347;
+
+    padding-bottom: 7px;
+}
+
+.input {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+
+    color: #70717B;
+
+    padding: 18px 10px;
+
+    background: #FFFFFF;
+    box-shadow: 0 6px 24px #E4E2EE;
+    border-radius: 4px;
+
+    border: none;
+    outline: none;
+}

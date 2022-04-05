@@ -96,6 +96,8 @@ html {
   --color-yellow-dark: rgba(255, 200, 20, 0.64);
 
   user-select: none;
+
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
