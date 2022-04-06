@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./Summary.style.css";
+import { styler } from "../../../../utils/styler";
 
 export const Summary: React.FC = () => {
     const onClick = (): void => {
-        console.log("onClick");
+        location.reload();
     };
 
     return (
@@ -19,7 +20,7 @@ export const Summary: React.FC = () => {
                     <button onClick={onClick} className={styles.button}>
                         {"Get Exploration"}
                     </button>
-                    <button onClick={onClick} className={styles.button} style={{ background: "#fffdfd" }}>
+                    <button onClick={onClick} className={styler(styles.button, styles.buttonWhite)}>
                         {"Read more"}
                     </button>
                 </div>

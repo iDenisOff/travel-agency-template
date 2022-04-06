@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
-@import url("https://dafonttop.com/wp-data/q/854/8854/file/Quick Kiss Personal Use.ttf");
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage:wght@100;400&display=swap");
 
 html,
 body,
@@ -94,7 +94,7 @@ html {
 
   --color-grey-light: #e5e5e5;
   --color-yellow: #ffc814;
-  --color-yellow-dark: rgba(255, 200, 20, 0.64);
+  --color-yellow-dark: #e0ac00;
 
   user-select: none;
 

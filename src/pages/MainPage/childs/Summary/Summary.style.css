@@ -65,3 +65,15 @@
 .button:active {
     background-color: var(--color-yellow-dark);
 }
+
+.button-white {
+    background-color: #fffdfd;
+}
+
+.button-white:hover {
+    background-color: #ccc7c7;
+}
+
+.button-white:active {
+    background-color: #ccc7c7;
+}

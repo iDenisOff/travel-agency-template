@@ -4,7 +4,7 @@ import { SearchParametersItem } from "./childs/SearchParametersItem";
 
 export const SearchParameters: React.FC = () => {
     const onClick = (): void => {
-        console.log("onClick");
+        location.reload();
     };
 
     return (

@@ -1,6 +1,7 @@
 declare namespace SummaryStyleCssNamespace {
     export interface ISummaryStyleCss {
         button: string;
+        buttonWhite: string;
         container: string;
         containerButtons: string;
         containerSummary: string;
