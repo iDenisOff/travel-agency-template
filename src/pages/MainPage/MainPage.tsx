@@ -4,6 +4,7 @@ import { Header } from "./childs/Header";
 import bg from "./images/background.png";
 import { Summary } from "./childs/Summary";
 import { SearchFilters } from "./childs/SearchFilters";
+import { Blog } from "./childs/Blog";
 
 export const MainPage: React.FC = () => {
     return (
@@ -11,6 +12,7 @@ export const MainPage: React.FC = () => {
             <Header />
             <Summary />
             <SearchFilters />
+            <Blog />
         </div>
     );
 };

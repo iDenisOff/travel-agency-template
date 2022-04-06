@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 1.1fr 122px 1fr 0.2fr;
+
+    padding: 96px 0;
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+
+    font-weight: 600;
+    font-size: 430px;
+    line-height: 300px;
+    letter-spacing: 15px;
+    color: rgba(244, 246, 250, 0.8);
+}
+
+.image {
+    position: absolute;
+    bottom: 55px;
+    right: -220px;
+}

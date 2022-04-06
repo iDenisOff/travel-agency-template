@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding-bottom: 50px;
+}
+
+.item {
+    display: grid;
+    grid-template-rows: 1fr 1.4fr;
+
+    padding-right: 95px;
+}
+
+.item-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+
+    color: var(--color-yellow);
+
+    padding-bottom: 7px;
+}
+
+.item-label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #9DA1B4;
+}
