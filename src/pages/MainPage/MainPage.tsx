@@ -8,7 +8,7 @@ import { Blog } from "./childs/Blog";
 
 export const MainPage: React.FC = () => {
     return (
-        <div className={styles.container} style={{ background: `url(${bg}) no-repeat fixed` }}>
+        <div className={styles.container} style={{ background: `url(${bg}) no-repeat fixed`, backgroundAttachment: "local" }}>
             <Header />
             <Summary />
             <SearchFilters />

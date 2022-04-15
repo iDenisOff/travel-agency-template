@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 1.1fr 122px 1fr 0.2fr;
+    grid-template-columns: 1fr 1fr;
 
     padding: 96px 0;
     position: relative;
@@ -16,14 +16,15 @@
     overflow: hidden;
 
     font-weight: 600;
-    font-size: 430px;
-    line-height: 300px;
-    letter-spacing: 15px;
+    font-size: 370px;
+    line-height: 250px;
     color: rgba(244, 246, 250, 0.8);
 }
 
 .image {
     position: absolute;
+    width: 300px;
     bottom: 55px;
-    right: -220px;
+    right: -180px;
+    z-index: -100;
 }

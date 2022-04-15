@@ -1,29 +1,31 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 1.4fr;
+    grid-template-columns: 1fr 1fr;
 
     padding: 118px 0 174px 0;
 }
 
 .container-summary {
     display: grid;
-    grid-template-rows: 2.8fr 1fr 1fr;
+    /*grid-template-rows: 2.8fr 1fr 1fr;*/
 }
 
 .header {
-    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 64px;
     line-height: 76px;
+
+    padding-bottom: 17px;
 
     color: #FFFFFF;
 }
 
 .text {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+
+    padding-bottom: 37px;
 
     color: #FFFFFF;
 }
@@ -43,11 +45,9 @@
     background-color: var(--color-yellow);
     outline: none;
 
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-
     text-align: center;
 
     color: #1F3347;

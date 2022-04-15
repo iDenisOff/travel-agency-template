@@ -1,12 +1,11 @@
 .container {
-    grid-column-start: 3;
     display: grid;
 }
 
 .label {
     font-family: 'Beau Rivage', sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 15px;
 
     color: var(--color-yellow);
