@@ -1,8 +1,15 @@
 .container {
     min-width: 1050px;
     min-height: 200px;
+
+    max-width: 1520px;
+    max-height: 900px;
+
     width: 100vw;
     height: 100vh;
+
+    margin-left: auto;
+    margin-right: auto;
 
     padding: 0 12%;
     position: relative;
